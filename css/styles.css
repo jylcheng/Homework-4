@@ -293,4 +293,17 @@ h2, p {
 	}
 }
 
+@media screen and(max-width: 845px){
+	nav li {
+		display: inline-block;
+		font-size: 14px;
+		padding: 10px;
+	}
+
+	nav li:hover {
+	background-color: #990000;
+	height: 40px;
+	overflow: hidden;
+}
+}
 
