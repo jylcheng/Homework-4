@@ -1,0 +1,296 @@
+@import url(reset.css);
+
+@import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700);
+@import url(https://fonts.googleapis.com/css?family=Tangerine); /*cursive*/
+@import url(https://fonts.googleapis.com/css?family=Buenard); /*serif*/
+
+a, a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:focus {
+	border-style: dashed;
+	border-width: 2px;
+	border-color: red;
+}
+
+a.light:hover{
+	background-color: #f6c9cd;
+	font-size: 14pt;
+}
+
+body {
+	background-color: #E9E0DB;
+	background-image: url('http://students.washington.edu/jylcheng/info343/Homework3/img/texture.jpg');	
+	margin-bottom: 50px;
+}
+
+nav a, nav a:visited{
+	color: #f6c9cd;
+}
+
+nav li:hover {
+	background-color: #990000;
+	height: 30px;
+	overflow: hidden;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 18px;
+	padding: 15px;
+}
+
+nav ul {
+	display: block;
+	float: right;
+	list-style: none;
+}
+
+nav.navbar ul {
+	margin-top: 40px;
+}
+
+dd.price {
+	font-style: italic;
+}
+
+dl  {
+	margin: 5px;
+}
+
+.red {
+	background: #732123;
+	display: block;
+	height: 100px;
+	padding-left: 15%;
+	padding-right: 15%;	
+}
+
+blockquote {
+	background-color: #F9F6F4;
+	color:  #732123;
+	font-size: 14pt;
+	font-variant: small-caps;
+	text-align: center;	
+}
+
+blockquote, .wrapping {
+	width: 75%;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	overflow: hidden;
+	padding: 3%;
+	border-radius: 25px;
+}
+
+blockquote:first-letter{
+	border-left: 2px dashed  #732123;
+	font-family: "Monotype Corsiva", fantasy;
+	font-size: 150%;
+}
+
+img.logos, .meat, .wrap {
+	float: left;
+}
+
+img.poven {
+	height: 300px;
+	margin: 30px;
+	overflow: hidden;
+	width: 300px;
+}
+
+img.pizzas, iframe {
+	width: 90%;
+}
+
+
+img.porder {
+	height:50%;
+	margin-top: 30px;
+	width: 50%;
+}
+
+.footer {
+	background: #732123;
+    bottom: 0;
+	color: #f6c9cd;
+    left: 0;
+    padding-bottom: 10px;
+    position: fixed;
+    text-align: center;
+    width: 100%; 
+}
+
+.one, img.poven, .side, .veg{
+	float: right;
+}
+
+.one {
+	margin: 25px;
+}
+
+iframe {
+	width: 90%;
+	height: 300px;
+}
+iframe, img.pizzas, img.porder, img.poven {
+	background-color: #C9A798;
+	display: block;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;	
+}
+
+.wrapping {
+	background-color: #F9F6F4;
+}
+
+h1 {
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h2, p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.upper:first-letter {
+	font-family: "Monotype Corsiva", fantasy;
+	font-size: 150%;
+	margin-left: 15px;
+}
+
+.bolding, dt, h2{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.meat, .veg, .drinking, .desserting {
+	display: block;
+	text-align: center;
+	width: 50%;
+	margin-bottom: 40px;
+}
+
+.drinking {
+	clear: both;
+}
+
+.drinking, .desserting {
+	margin: auto;
+}
+
+.bolding, dt {
+	font-size: 16px;
+}
+
+.wrap {
+	width: 50%;
+	overflow: hidden;
+}
+
+.side {
+	background: #C9A798;
+	border-radius: 15px;
+	clear: right;
+	color: #142326;
+	display: block;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	width: 200px;
+}
+
+.middle {
+	text-align: center;
+	font-style: italic;
+}
+
+#top {
+	margin: auto;
+	text-align: center;
+	width: 80%;
+}
+
+#top ul {
+	margin-top: 20px;
+}
+
+.hide {
+	display: none;
+}
+
+.btn {
+	margin: 20px;
+}
+
+.cart { 
+	background-color: white;
+	padding: 15px;
+	margin: 20px;
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px#888;
+	box-shadow: 0 0 5px 5px #888;
+	border-radius: 10px;
+}
+
+.minimum { 
+	color: red;
+	text-align: center;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 538px){
+	img.poven {
+		height: 60%;
+		width:  70%;
+	}
+}
+
+@media screen and (max-width: 587px) {
+	iframe.video {
+		height: 200px;
+		width: 80%;
+	}
+
+	 .side, .wrap {
+		float: none;
+		margin: 20px;
+		width: 85%;
+	}
+}
+
+@media screen and (max-width: 737px) {
+	.veg, .meat {
+		clear: both;
+		display: block;
+		float: none;
+		margin: auto;
+	}
+
+	.red {
+		height: 200px;
+	}
+}
+
+@media screen and(max-width: 787px) {
+	iframe.video {
+		height: 250%;
+		width: 90%;
+	}
+}
+
+

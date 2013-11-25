@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Dawg Pizza</title>
+        
+    <meta name="author" content="jylcheng">
+</head>
+
+<body>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+     <script src="js/menu.js"></script>
+     <script src="http://www.dawgpizza.com/orders/menu.js"></script>
+     <script src="js/menu-data.js"></script>
+     <script src="js/Cart.js"></script>
+
+   <div class="red">
+        <a href="home.html"><img src="img/logo.png" alt="Home!" class="logos"></a>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutus.html"> About Us</a></li>
+                <li><a href="menu.html"> Menu</a></li>
+                 <li><a href="order.html"> Order</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <blockquote> Awesome wood-fired pizza with fresh ingredients baked to order. Come in and eat or call us for delivery!</blockquote>
+
+    <div class="wrapping">
+        <h1 class="middle">Dawg Pizza Menu </h1>
+
+        <img src="img/pizza-order.jpg" alt="pizzaorder" class="porder">
+  
+        <div id="top">
+            <h2> Pizzas: </h2>
+            <p>  All our pizzas are made with hand-thrown thin crust, baked in real wood ovens. <br> Choose from one of these sizes: </p>
+
+            <ul>
+                <li>Small (12")</li>
+                <li> Medium (14")</li>
+                <li>Large (17")</li>
+            </ul>
+        </div>
+
+        <!-- Templates out what the pulled data will look like via HTML -->
+         <div class="template">
+            <span class="name"></span>
+            <p><span class="desc"></span></p>
+            <p><span class="pizza-s"></span>
+            <span class="pizza-m"></span>
+            <span class="pizza-l"></span></p>
+        </div>
+        
+        <div class="pizzaing">
+            <div class="meat"> 
+                <h2> Meat Pizzas: </h2>
+            </div>
+
+            <div class="veg"> 
+                <h2> Vegetarian Pizzas: </h2>
+            </div>
+        </div>
+
+        <div class="drinking"> 
+            <h2> Drinks: </h2>
+        </div>
+
+        <div class="desserting">
+            <h2> Desserts: </h2>
+        </div>
+    </div>
+    
+    <div class="footer">  <p>&#169; Call us for delivery: 206-555-1212</p>
+    </div>  
+    
+</body>
+</html>
